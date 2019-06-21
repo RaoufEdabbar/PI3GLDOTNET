@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTDAV.ServicePattern", "ServicePattern\OTDAV.ServicePattern.csproj", "{904CE26A-DF7D-4294-B369-C845FB40D047}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTDAVGUI", "OTDAVGUI\OTDAVGUI.csproj", "{EAA54B76-95DE-4BE7-9D23-E753A66AEECC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTDAV.Console", "Console\OTDAV.Console.csproj", "{C28979B5-E6D5-4190-88E4-DCFCC6AF8CC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTDAV.data", "data\OTDAV.data.csproj", "{A979FFCF-EDB5-4CBF-B36E-30EA2FD408E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTDAV.domain", "domain\OTDAV.domain.csproj", "{8C5817FB-8FE0-4556-A3A6-02B2881BFF88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTDAV.Service", "Service\OTDAV.Service.csproj", "{7BF9F960-6103-487A-BAA8-D73D6A30A094}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{904CE26A-DF7D-4294-B369-C845FB40D047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{904CE26A-DF7D-4294-B369-C845FB40D047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{904CE26A-DF7D-4294-B369-C845FB40D047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{904CE26A-DF7D-4294-B369-C845FB40D047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAA54B76-95DE-4BE7-9D23-E753A66AEECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA54B76-95DE-4BE7-9D23-E753A66AEECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA54B76-95DE-4BE7-9D23-E753A66AEECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA54B76-95DE-4BE7-9D23-E753A66AEECC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C28979B5-E6D5-4190-88E4-DCFCC6AF8CC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C28979B5-E6D5-4190-88E4-DCFCC6AF8CC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C28979B5-E6D5-4190-88E4-DCFCC6AF8CC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C28979B5-E6D5-4190-88E4-DCFCC6AF8CC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A979FFCF-EDB5-4CBF-B36E-30EA2FD408E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A979FFCF-EDB5-4CBF-B36E-30EA2FD408E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A979FFCF-EDB5-4CBF-B36E-30EA2FD408E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A979FFCF-EDB5-4CBF-B36E-30EA2FD408E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C5817FB-8FE0-4556-A3A6-02B2881BFF88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C5817FB-8FE0-4556-A3A6-02B2881BFF88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C5817FB-8FE0-4556-A3A6-02B2881BFF88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C5817FB-8FE0-4556-A3A6-02B2881BFF88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BF9F960-6103-487A-BAA8-D73D6A30A094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF9F960-6103-487A-BAA8-D73D6A30A094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF9F960-6103-487A-BAA8-D73D6A30A094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF9F960-6103-487A-BAA8-D73D6A30A094}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
